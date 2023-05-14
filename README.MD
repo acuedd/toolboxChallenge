@@ -21,7 +21,7 @@ If you want to see the logs in your terminal take off -d
 
 # TROUBLESHOOTING 
 
-The container it suppouse that will run all that you need but in case of error run this: 
+The container it suppouse that will run all that you need but in case of error or if nothing is loading, run this: 
 
 npm install in server container 
 ```
@@ -37,7 +37,9 @@ npm install in client container
 
 To start interacting with the application, open `http://localhost:3000/` on a browser.
 
-if you want to see if backend works, open `http://localhost:4000/` on a browser.
 
 And you will see something like this: 
 ![](preview.png)
+
+
+if you want to see if backend works, open `http://localhost:4000/` on a browser.
