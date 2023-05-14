@@ -23,11 +23,6 @@ If you want to see the logs in your terminal take off -d
 
 The container it suppouse that will run all that you need but in case of error or if nothing is loading, run this: 
 
-Stop the container: 
-```
-    docker compose stop
-```
-
 npm install in server container 
 ```
     docker compose exec server npm install
@@ -36,6 +31,11 @@ npm install in server container
 npm install in client container 
 ```
     docker compose exec client npm install
+```
+
+Stop the container: 
+```
+    docker compose stop
 ```
 
 Restart the container: 
